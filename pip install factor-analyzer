@@ -1,0 +1,25 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><title>JupyterLab</title><meta name="viewport" content="width=device-width,initial-scale=1">   <script id="jupyter-config-data" type="application/json">{"allow_hidden_files": false, "appName": "JupyterLab", "appNamespace": "lab", "appSettingsDir": "C:/ProgramData/anaconda3/share/jupyter/lab/settings", "appUrl": "/lab", "appVersion": "4.2.5", "baseUrl": "/", "buildAvailable": true, "buildCheck": true, "cacheFiles": false, "copyAbsolutePath": false, "devMode": false, "disabledExtensions": [], "exposeAppInBrowser": false, "extensionManager": {"can_install": true, "install_path": "C:\\ProgramData\\anaconda3", "name": "PyPI"}, "extraLabextensionsPath": [], "federated_extensions": [{"entrypoints": null, "extension": "./extension", "load": "static/remoteEntry.c6c768d682b3638efd6b.js", "mimeExtension": "./mimeExtension", "name": "jupyterlab-plotly"}, {"entrypoints": null, "extension": "./extension", "load": "static/remoteEntry.04dfa589925e7e7c6a3d.js", "name": "@jupyter-notebook/lab-extension", "style": "./style"}, {"entrypoints": null, "extension": "./extension", "load": "static/remoteEntry.ca1efc27dc965162ca86.js", "name": "@jupyter-widgets/jupyterlab-manager"}, {"entrypoints": null, "extension": "./extension", "load": "static/remoteEntry.cfbccb113f4c7c1d65fe.js", "name": "@lckr/jupyterlab_variableinspector", "style": "./style"}, {"entrypoints": null, "extension": "./extension", "load": "static/remoteEntry.c8393541423362724be3.js", "name": "@pyviz/jupyterlab_pyviz", "style": "./style"}], "fullAppUrl": "/lab", "fullLabextensionsUrl": "/lab/extensions", "fullLicensesUrl": "/lab/api/licenses", "fullListingsUrl": "/lab/api/listings", "fullMathjaxUrl": "https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js", "fullSettingsUrl": "/lab/api/settings", "fullStaticUrl": "/static/lab", "fullThemesUrl": "/lab/api/themes", "fullTranslationsApiUrl": "/lab/api/translations", "fullTreeUrl": "/lab/tree", "fullWorkspacesApiUrl": "/lab/api/workspaces", "ignorePlugins": [], "labextensionsPath": ["C:\\Users\\troy.morgan\\AppData\\Roaming\\jupyter\\labextensions", "C:\\Users\\troy.morgan\\AppData\\Roaming\\Python\\share\\jupyter\\labextensions", "C:\\ProgramData\\anaconda3\\share\\jupyter\\labextensions", "C:\\ProgramData\\jupyter\\labextensions"], "labextensionsUrl": "/lab/extensions", "licensesUrl": "/lab/api/licenses", "listingsUrl": "/lab/api/listings", "mathjaxConfig": "TeX-AMS_HTML-full,Safe", "mode": "multiple-document", "nbclassic_enabled": false, "news": {"disabled": false}, "notebookStartsKernel": true, "notebookVersion": "[2, 14, 1]", "preferredPath": "/", "quitButton": true, "rootUri": "file:///c:/Users/troy.morgan", "schemasDir": "C:/ProgramData/anaconda3/share/jupyter/lab/schemas", "serverRoot": "C:/Users/troy.morgan", "settingsUrl": "/lab/api/settings", "staticDir": "C:/ProgramData/anaconda3/share/jupyter/lab/static", "store_id": 3, "templatesDir": "C:/ProgramData/anaconda3/share/jupyter/lab/static", "terminalsAvailable": true, "themesDir": "C:/ProgramData/anaconda3/share/jupyter/lab/themes", "themesUrl": "/lab/api/themes", "token": "d2fa7bdb251af921d6cfe627e68847542e4fad36c97a7d14", "translationsApiUrl": "/lab/api/translations", "treePath": "Documents/GitHub/week10labs/pip install factor-analyzer", "treeUrl": "/lab/tree", "userSettingsDir": "C:/Users/troy.morgan/.jupyter/lab/user-settings", "virtualDocumentsUri": "file:///c:/Users/troy.morgan/.virtual_documents", "workspace": "default", "workspacesApiUrl": "/lab/api/workspaces", "workspacesDir": "C:/Users/troy.morgan/.jupyter/lab/workspaces", "wsUrl": ""}</script><link rel="icon" type="image/x-icon" href="/static/favicons/favicon.ico" class="idle favicon"><link rel="" type="image/x-icon" href="/static/favicons/favicon-busy-1.ico" class="busy favicon"> <script defer="defer" src="/static/lab/main.d1d45e5c16d8a46ddf5e.js?v=d1d45e5c16d8a46ddf5e"></script></head><body><script>/* Remove token from URL. */
+  (function () {
+    var location = window.location;
+    var search = location.search;
+
+    // If there is no query string, bail.
+    if (search.length <= 1) {
+      return;
+    }
+
+    // Rebuild the query string without the `token`.
+    var query = '?' + search.slice(1).split('&')
+      .filter(function (param) { return param.split('=')[0] !== 'token'; })
+      .join('&');
+
+    // Rebuild the URL with the new query string.
+    var url = location.origin + location.pathname +
+      (query !== '?' ? query : '') + location.hash;
+
+    if (url === location.href) {
+      return;
+    }
+
+    window.history.replaceState({ }, '', url);
+  })();</script></body></html>
